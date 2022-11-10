@@ -93,7 +93,7 @@ function price() {
     total = total + price * quantity;
   }
   let totalCost = document.getElementById("cart-total");
-  totalCost.innerText = "$" + total;
+  totalCost.innerHTML = "$" + total;
 }
 //function to handle quantity changing
 function quantityChanged(e) {
